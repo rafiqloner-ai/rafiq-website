@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Rafiq Nafis — Creative Technologist &amp; Visual Storyteller</title>
+<meta name="description" content="Portfolio of Muhammad Rafiq Nafis, Creative Technologist &amp; Digital Media Creator. Branding, photography, videography, motion graphics and interactive experiences.">
+<link rel="icon" type="image/png" href="img/tab.png">
+<link rel="shortcut icon" type="image/png" href="img/tab.png">
+<link rel="apple-touch-icon" href="img/tab.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="pageLoader" class="page-loader">
+  <div class="loader-inner">
+    <div class="loader-logo">Rafiq<span>.</span></div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  </div>
+</div>
+
+<div id="progress"></div>
+
+<header id="siteHeader">
+  <div class="navbar">
+    <a href="#home" class="logo navlink-home">Rafiq<span>.</span></a>
+    <nav>
+      <ul id="navList">
+        <div class="nav-pill" id="navPill"></div>
+        <li><a href="#home" class="navlink active">Home</a></li>
+        <li><a href="#works" class="navlink">Works</a></li>
+        <li><a href="#skills" class="navlink">Skills</a></li>
+        <li><a href="#qualifications" class="navlink">Experience</a></li>
+        <li><a href="#about" class="navlink">About Me</a></li>
+        <li><a href="#contact" class="navlink">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <button class="toggle" id="darkToggle" aria-label="Toggle dark mode">🌙</button>
+      <button class="navmenu-btn" id="navMenuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#home" class="navlink-mobile">Home</a>
+    <a href="#works" class="navlink-mobile">Works</a>
+    <a href="#skills" class="navlink-mobile">Skills</a>
+    <a href="#qualifications" class="navlink-mobile">Experience</a>
+    <a href="#about" class="navlink-mobile">About Me</a>
+    <a href="#contact" class="navlink-mobile">Contact</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-portrait reveal">
+      <div class="frame">
+        <img src="img/pichero.jpg" alt="Portrait of Muhammad Rafiq Nafis">
+      </div>
+      <div class="float-tag"><span class="dot"></span><div><strong style="font-size:13.5px;">Open to internships</strong><br><span style="font-size:12px;color:var(--text-soft)">Creative Technology · Digital Media</span></div></div>
+    </div>
+    <div class="hero-copy reveal">
+      <div class="hero-status">✦ Diploma in Digital Media Communication Technology, UiTM</div>
+      <h1>Muhammad Rafiq Nafis</h1>
+      <div class="role-cycle"><div class="role-track" id="roleTrack">
+        <span>Creative Technologist</span>
+        <span>Digital Media Creator</span>
+        <span>Visual Storyteller</span>
+        <span>Brand Designer</span>
+      </div></div>
+      <p class="intro">I create meaningful digital experiences by combining storytelling, branding, photography, videography, motion graphics, design thinking, and emerging technologies. Every project is an opportunity to transform ideas into experiences people remember.</p>
+      <p style="font-size:14px;color:var(--text-soft);margin-bottom:30px;max-width:480px;">Seeking internship opportunities in Creative Technology, Digital Media Production, Visual Design, Branding, Photography, Videography, and Interactive Experiences.</p>
+      <div class="hero-actions">
+        <a href="#works" class="btn btn-primary magnetic">Explore My Work →</a>
+        <a href="cv/resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost magnetic">View Resume</a>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<div class="filmstrip"><div class="filmstrip-track" id="filmTrack">
+  <span><i></i>Photography</span><span><i></i>Video</span><span><i></i>Animations</span><span><i></i>Graphic Design</span><span><i></i>3D</span><span><i></i>AI Works</span>
+  <span><i></i>Photography</span><span><i></i>Video</span><span><i></i>Animations</span><span><i></i>Graphic Design</span><span><i></i>3D</span><span><i></i>AI Works</span>
+</div></div>
+
+<!-- FEATURED WORKS -->
+<section id="works">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Featured Works</span>
+      <h2 class="section-title">Selected stories, told visually</h2>
+      <p class="section-sub">A curated look at the projects I'm most proud of — branding, film, photography and publication design that put craft first.</p>
+    </div>
+
+    <div class="filters reveal" id="filterBar">
+      <button class="filter-btn active" data-filter="All">All</button>
+      <button class="filter-btn" data-filter="Photography">Photography</button>
+      <button class="filter-btn" data-filter="Video">Video</button>
+      <button class="filter-btn" data-filter="Animations">Animations</button>
+      <button class="filter-btn" data-filter="Graphic Design">Graphic Design</button>
+      <button class="filter-btn" data-filter="3D">3D</button>
+      <button class="filter-btn" data-filter="AI Works">AI Works</button>
+    </div>
+    <div class="masonry" id="galleryGrid">
+
+      <div class="card" data-cat="Photography" data-id="1" data-title="Framing" data-year="2025" data-desc="Using natural framing elements to draw the eye toward the subject and add depth to the composition." data-exif-aperture="5" data-exif-shutter="1/125s" data-exif-iso="800" data-exif-focal="22">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/framing.jpg" alt="Framing" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Photography</span>
+            <div class="ctitle">Framing</div>
+            <div class="cmeta">2025</div>
+            <div class="exif-row">
+              <span class="exif-chip">ƒ/5</span>
+              <span class="exif-chip">1/125s</span>
+              <span class="exif-chip">ISO 800</span>
+              <span class="exif-chip">22mm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Photography" data-id="2" data-title="Diagonal Triangle" data-year="2025" data-desc="Exploring diagonal lines and triangular composition to create dynamic tension within the frame." data-exif-aperture="4.5" data-exif-shutter="1/160s" data-exif-iso="800" data-exif-focal="18">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/diagonal.jpg" alt="Diagonal Triangle" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Photography</span>
+            <div class="ctitle">Diagonal Triangle</div>
+            <div class="cmeta">2025</div>
+            <div class="exif-row">
+              <span class="exif-chip">ƒ/4.5</span>
+              <span class="exif-chip">1/160s</span>
+              <span class="exif-chip">ISO 800</span>
+              <span class="exif-chip">18mm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Photography" data-id="3" data-title="Rules of Third" data-year="2025" data-desc="Applying the rule of thirds to balance the subject against negative space." data-exif-aperture="1.4" data-exif-shutter="1/400s" data-exif-iso="100" data-exif-focal="16">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/rot.jpeg" alt="Rules of Third" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Photography</span>
+            <div class="ctitle">Rules of Third</div>
+            <div class="cmeta">2025</div>
+            <div class="exif-row">
+              <span class="exif-chip">ƒ/1.4</span>
+              <span class="exif-chip">1/400s</span>
+              <span class="exif-chip">ISO 100</span>
+              <span class="exif-chip">16mm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Photography" data-id="4" data-title="Patterns and Texture" data-year="2025" data-desc="A study in repeating patterns and tactile texture captured through natural light." data-exif-aperture="5" data-exif-shutter="1/125s" data-exif-iso="800" data-exif-focal="22">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/texture.jpg" alt="Patterns and Texture" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Photography</span>
+            <div class="ctitle">Patterns and Texture</div>
+            <div class="cmeta">2025</div>
+            <div class="exif-row">
+              <span class="exif-chip">ƒ/5</span>
+              <span class="exif-chip">1/125s</span>
+              <span class="exif-chip">ISO 800</span>
+              <span class="exif-chip">22mm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Photography" data-id="5" data-title="Center" data-year="2025" data-desc="A centred composition exercise focused on symmetry and a strong single focal point." data-exif-aperture="4.5" data-exif-shutter="1/2000s" data-exif-iso="250" data-exif-focal="18">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/center.jpg" alt="Center" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Photography</span>
+            <div class="ctitle">Center</div>
+            <div class="cmeta">2025</div>
+            <div class="exif-row">
+              <span class="exif-chip">ƒ/4.5</span>
+              <span class="exif-chip">1/2000s</span>
+              <span class="exif-chip">ISO 250</span>
+              <span class="exif-chip">18mm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Video" data-id="6" data-title="Beca — Group Project" data-year="2024" data-desc="A collaborative video project exploring the trishaw (&quot;beca&quot;) culture of Melaka, produced with a small team." data-video="true" data-youtubeid="K6kfQ5A3pag">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/beca.jpeg" alt="Beca — Group Project" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Video</span>
+            <div class="ctitle">Beca — Group Project</div>
+            <div class="cmeta">2024</div>
+            <span class="viewcase">Watch Now <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Video" data-id="7" data-title="Healing Spots — Pair Work" data-year="2024" data-desc="A calming short film created in pairs, highlighting quiet spaces around campus for rest and reflection." data-video="true" data-youtubeid="vI9pqX6G_jw" data-youtubestart="19">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/healing.jpeg" alt="Healing Spots — Pair Work" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Video</span>
+            <div class="ctitle">Healing Spots — Pair Work</div>
+            <div class="cmeta">2024</div>
+            <span class="viewcase">Watch Now <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Animations" data-id="8" data-title="Lip Sync" data-year="2025" data-desc="A short lip-sync animation exercise focused on matching mouth shapes to dialogue timing." data-video="true" data-youtubeid="_RMjIjxooAM">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/lipsync.png" alt="Lip Sync" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Animations</span>
+            <div class="ctitle">Lip Sync</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">Watch Now <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Animations" data-id="9" data-title="Walk Cycle" data-year="2025" data-desc="A classic walk-cycle animation study exploring weight, timing and natural movement." data-video="true" data-youtubeid="Z42oAbARwA0">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/walkcycle.png" alt="Walk Cycle" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Animations</span>
+            <div class="ctitle">Walk Cycle</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">Watch Now <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Animations" data-id="10" data-title="Principles of Animation" data-year="2025" data-desc="An exercise applying the 12 principles of animation, from squash-and-stretch to anticipation." data-video="true" data-youtubeid="YYD4owGsyGQ">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/animation.png" alt="Principles of Animation" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Animations</span>
+            <div class="ctitle">Principles of Animation</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">Watch Now <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Animations" data-id="11" data-title="Motion Graphic Promo" data-year="2025" data-desc="A kinetic-typography promo piece combining motion graphics with brand messaging." data-video="true" data-youtubeid="E-aaf4Fz53A">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/camera.png" alt="Motion Graphic Promo" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Animations</span>
+            <div class="ctitle">Motion Graphic Promo</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">Watch Now <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Graphic Design" data-id="12" data-title="FLAIRE Poster" data-year="2025" data-desc="Promotional poster design for the FLAIRE brand identity, translating the visual system into print.">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/flaire.jpg" alt="FLAIRE Poster" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Graphic Design</span>
+            <div class="ctitle">FLAIRE Poster</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Graphic Design" data-id="13" data-title="FLAIRE Logo" data-year="2025" data-desc="Logo design and mark exploration for the FLAIRE brand identity project.">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/logo.png" alt="FLAIRE Logo" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Graphic Design</span>
+            <div class="ctitle">FLAIRE Logo</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Graphic Design" data-id="18" data-title="FLAIRE Magazine Cover" data-year="2025" data-desc="A magazine front-page design extending the FLAIRE brand identity into an editorial cover layout.">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/frontpage.png" alt="FLAIRE Magazine Cover" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Graphic Design</span>
+            <div class="ctitle">FLAIRE Magazine Cover</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Graphic Design" data-id="14" data-title="YAZOO Poster" data-year="2024" data-desc="A poster design exercise built around bold typography and colour for the YAZOO concept.">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/yazoo.png" alt="YAZOO Poster" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Graphic Design</span>
+            <div class="ctitle">YAZOO Poster</div>
+            <div class="cmeta">2024</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="Graphic Design" data-id="15" data-title="Isometric" data-year="2024" data-desc="An isometric illustration exercise exploring perspective, colour and geometric composition.">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/isometric.png" alt="Isometric" loading="lazy">
+          <div class="overlay">
+            <span class="tag">Graphic Design</span>
+            <div class="ctitle">Isometric</div>
+            <div class="cmeta">2024</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="3D" data-id="16" data-title="Trophy" data-year="2025" data-desc="A 3D trophy render exploring materials, lighting and reflections in Blender.">
+        <div class="media" style="aspect-ratio:3/4">
+          <img src="img/front.png" alt="Trophy" loading="lazy">
+          <div class="overlay">
+            <span class="tag">3D</span>
+            <div class="ctitle">Trophy</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="AI Works" data-id="17" data-title="Earpods Merch" data-year="2025" data-desc="A merchandise concept for wireless earbuds packaging, developed with the help of generative AI tools.">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/ai.png" alt="Earpods Merch" loading="lazy">
+          <div class="overlay">
+            <span class="tag">AI Works</span>
+            <div class="ctitle">Earpods Merch</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="AI Works" data-id="19" data-title="NextGen Talk Handfan" data-year="2025" data-desc="Event handfan design for NextGen Talk (PIXELFES 1.0), combining original graphic design with AI-assisted mockup generation.">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/handfan.jpeg" alt="NextGen Talk Handfan" loading="lazy">
+          <div class="overlay">
+            <span class="tag">AI Works</span>
+            <div class="ctitle">NextGen Talk Handfan</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-cat="AI Works" data-id="20" data-title="MESKOM Club Varsity Jacket" data-year="2025" data-desc="Varsity jacket mockup for MESKOM Club, blending original graphic design with AI-generated product visualization.">
+        <div class="media" style="aspect-ratio:4/3">
+          <img src="img/varsity.jpeg" alt="MESKOM Club Varsity Jacket" loading="lazy">
+          <div class="overlay">
+            <span class="tag">AI Works</span>
+            <div class="ctitle">MESKOM Club Varsity Jacket</div>
+            <div class="cmeta">2025</div>
+            <span class="viewcase">View Case Study <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" style="background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Capabilities</span>
+      <h2 class="section-title">A creative &amp; technical toolkit</h2>
+      <p class="section-sub">Skills built across the classroom, the field, and late-night render queues.</p>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </div>
+</section>
+
+<!-- QUALIFICATIONS -->
+<section id="qualifications" style="background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Qualifications</span>
+      <h2 class="section-title">Academic foundation</h2>
+    </div>
+    <div class="qual-wrap reveal">
+      <div class="qual-card">
+        <h3>Diploma in Digital Media Communication Technology</h3>
+        <div class="school">Universiti Teknologi MARA (UiTM)</div>
+        <div class="stat-row">
+          <div class="stat"><div class="num">3.70</div><div class="lbl">Current CGPA</div></div>
+          <div class="stat"><div class="num">2027</div><div class="lbl">Expected Graduation</div></div>
+        </div>
+      </div>
+      <div class="qual-card">
+        <h3 style="font-size:18px;margin-bottom:18px;">Relevant Coursework</h3>
+        <div class="coursework">
+          <span>Graphic Design</span><span>Photography</span><span>Videography</span><span>Media Technology</span>
+          <span>Interactive Media</span><span>Digital Video Editing</span><span>Audience Engagement</span><span>Real-Time Rendering</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEYOND THE PORTFOLIO -->
+<section id="about">
+  <div class="wrap">
+    <div class="reveal" style="margin-bottom:50px;">
+      <span class="eyebrow">Beyond the Portfolio</span>
+      <h2 class="section-title">The person behind the projects</h2>
+    </div>
+    <div class="beyond-grid reveal">
+      <div class="beyond-portrait">
+        <img src="img/bottompic.jpg" alt="Muhammad Rafiq Nafis">
+      </div>
+      <div class="beyond-copy">
+        <p>Hello! I'm Muhammad Rafiq Nafis, a creative individual passionate about combining technology, storytelling, and visual communication to create meaningful experiences. I believe great design isn't only about aesthetics—it's about solving problems, communicating ideas, and leaving lasting impressions. Every project I take on helps me grow both creatively and professionally.</p>
+      </div>
+    </div>
+    <div class="info-grid reveal" id="beyondGrid"></div>
+
+    <div class="beyond-sub reveal" style="margin-top:50px;">
+      <div class="beyond-sub-head"><span class="sub-icon">💼</span><h3>Work &amp; Leadership Experience</h3></div>
+      <div class="beyond-sub-grid" id="workGrid"></div>
+    </div>
+
+    <div class="beyond-sub reveal">
+      <div class="beyond-sub-head"><span class="sub-icon">🌱</span><h3>Extracurricular Activities</h3></div>
+      <div class="beyond-sub-grid" id="extraGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section style="padding:60px 32px 120px;">
+  <div id="contact" class="reveal">
+    <span class="eyebrow">Get In Touch</span>
+    <h2 class="section-title">Let's Create Something Meaningful</h2>
+    <p class="section-sub">Thank you for taking the time to explore my portfolio. Whether you're looking for an intern, creative collaborator, or someone passionate about visual storytelling and digital media, I'd love to hear from you.</p>
+    <div class="contact-actions">
+      <a href="mailto:m.rafiqnafisu@gmail.com" class="btn btn-primary magnetic">m.rafiqnafisu@gmail.com</a>
+      <button type="button" class="btn btn-ghost magnetic vr-trigger">▶ Video Resume</button>
+    </div>
+    <div class="contact-social">
+      <a href="https://www.linkedin.com/in/muhammad-rafiq-nafis-bin-mohd-reszuandy-57b803420" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/rafiqnafisu/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07c-1.28.06-2.15.26-2.91.56-.79.31-1.46.72-2.13 1.38-.66.67-1.07 1.34-1.38 2.13-.3.76-.5 1.63-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.28.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.66 1.34 1.07 2.13 1.38.76.3 1.63.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.28-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.66-.67 1.07-1.34 1.38-2.13.3-.76.5-1.63.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.28-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13-.67-.66-1.34-1.07-2.13-1.38-.76-.3-1.63-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>Muhammad Rafiq Nafis</h3>
+        <p>Creating digital experiences where creativity meets technology.</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#qualifications">Qualifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="copyright">© 2026 Muhammad Rafiq Nafis. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <div class="lb-close" id="lbClose">✕</div>
+  <div class="lb-prev" id="lbPrev">←</div>
+  <div class="lb-next" id="lbNext">→</div>
+  <div class="lightbox-inner">
+    <div id="lbMedia"></div>
+    <div class="meta">
+      <h3 id="lbTitle"></h3>
+      <p id="lbDesc"></p>
+      <div id="lbExif"></div>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO RESUME MODAL (Google Drive) — isolated, unique classes, does not reuse .lightbox -->
+<div class="vr-modal" id="vrModal">
+  <div class="vr-modal__overlay" id="vrOverlay"></div>
+  <div class="vr-modal__panel">
+    <button type="button" class="vr-modal__close" id="vrClose" aria-label="Close video">✕</button>
+    <div class="vr-modal__frame-wrap" id="vrFrameWrap"></div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
