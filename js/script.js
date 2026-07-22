@@ -30,7 +30,7 @@ const works = [
  {id:11,title:"Motion Graphic Promo",cat:"Animations",year:"2025",desc:"A kinetic-typography promo piece combining motion graphics with brand messaging.",img:"img/camera.png",video:true,youtubeId:"E-aaf4Fz53A"},
 
  // Graphic Design — standard layout: title + description
- {id:12,title:"FLAIRE Poster",cat:"Graphic Design",year:"2025",desc:"Promotional poster design for the FLAIRE brand identity, translating the visual system into print.",img:"img/FLAIRE.JPG",tall:true},
+ {id:12,title:"FLAIRE Poster",cat:"Graphic Design",year:"2025",desc:"Promotional poster design for the FLAIRE brand identity, translating the visual system into print.",img:"img/flaire.jpg",tall:true},
  {id:13,title:"FLAIRE Logo",cat:"Graphic Design",year:"2025",desc:"Logo design and mark exploration for the FLAIRE brand identity project.",img:"img/logo.png"},
  {id:18,title:"FLAIRE Magazine Cover",cat:"Graphic Design",year:"2025",desc:"A magazine front-page design extending the FLAIRE brand identity into an editorial cover layout.",img:"img/frontpage.png",tall:true},
  {id:14,title:"YAZOO Poster",cat:"Graphic Design",year:"2024",desc:"A poster design exercise built around bold typography and colour for the YAZOO concept.",img:"img/yazoo.png",tall:true},
